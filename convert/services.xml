@@ -1,0 +1,1829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<services xmlns="http://www.demandware.com/xml/impex/services/2014-09-26">
+    <service-credential service-credential-id="IG_GraphAPI">
+        <url>https://graph.facebook.com/v15.0</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">vbmToWnriBvE4cddf8GrdKgy/Z8dk8FKp30QHQD7KJk=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="amazon.pay.buyer.get.cred">
+        <url>https://pay-api.amazon.:region/:environment/v2/buyers/:buyerToken</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">1QrCv+3reug+gkUiu48FYMFumRLX4vmw7zHrM62EAzI=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="amazon.pay.charge.cancel.cred">
+        <url>https://pay-api.amazon.:region/:environment/v2/charges/:chargeId/cancel</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">sRLf+124QIihN/kyqDA+YZTgUFkVEiKCJQNKTCIYejQ=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="amazon.pay.charge.capture.cred">
+        <url>https://pay-api.amazon.:region/:environment/v2/charges/:chargeId/capture</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">0inMhcpdKjgEbh9KU6BeJ/JMr8XqY+fyab29aCPwPro=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="amazon.pay.charge.create.cred">
+        <url>https://pay-api.amazon.:region/:environment/v2/charges/</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">fAdhv4w+sPYVq/e3rvHTZ7Sp8t29lclFMSUsswjDBuo=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="amazon.pay.charge.get.cred">
+        <url>https://pay-api.amazon.:region/:environment/v2/charges/:chargeId</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">ZDqE8wrsSkAYB3lUAgRF3TQs5PWiOinAz7fBTd//4Kc=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="amazon.pay.chargePermission.close.cred">
+        <url>https://pay-api.amazon.:region/:environment/v2/chargePermissions/:chargePermissionId/close</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">B/AEK/LqNNHY4wemcKZTRmPXtFwilLfOvpC7App64mM=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="amazon.pay.chargePermission.get.cred">
+        <url>https://pay-api.amazon.:region/:environment/v2/chargePermissions/:chargePermissionId</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">1K/jSTgN5c3M4kx29cIo7a3Sqvp8Oq9tFZc1ZMdNNo8=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="amazon.pay.chargePermission.update.cred">
+        <url>https://pay-api.amazon.:region/:environment/v2/chargePermissions/:chargePermissionId</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">s7/XtBE9Y8rj+S5wT8V5KiD0DTPb4EL4U5VLH1aYYow=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="amazon.pay.checkoutSession.complete.cred">
+        <url>https://pay-api.amazon.:region/:environment/v2/checkoutSessions/:checkoutSessionId/complete</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">+K5n40OPWtcUwE0Bm8Q4boE1YcKXv1hey6744D1SHTo=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="amazon.pay.checkoutSession.create.cred">
+        <url>https://pay-api.amazon.:region/:environment/v2/checkoutSessions</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">09B1kLCI3rn0rhmQbq6oCS3l3lLtspEgYUU2Y3zJ3+I=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="amazon.pay.checkoutSession.get.cred">
+        <url>https://pay-api.amazon.:region/:environment/v2/checkoutSessions/:checkoutSessionId</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">x7NeviogrbnvO6zXo1ON4atk2oj+Rr4i0/9QWbi7g5s=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="amazon.pay.checkoutSession.update.cred">
+        <url>https://pay-api.amazon.:region/:environment/v2/checkoutSessions/:checkoutSessionId</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">HYCUeDIQiMM5z3m79xsY0+OF78GZXhyz3OMXJFZ6DlE=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="amazon.pay.refund.create.cred">
+        <url>https://pay-api.amazon.:region/:environment/v2/refunds/</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">OCWoo7KdVbphV9p0qrz+bzmyTk2De3gj3V8Xqs+B3Qw=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="amazon.pay.refund.get.cred">
+        <url>https://pay-api.amazon.:region/:environment/v2/refunds/:refundId</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">SKdkxFpS5aS+rluQcUHqBzDQ/dsZfn0GINd3dvtW4RE=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="create.request.stock">
+        <url>https://testconvert.tomorrowland.co.jp/create-request-stock</url>
+        <user-id>ruby-dev</user-id>
+        <password encrypted="true" encryption-type="common.export">6/cMITm5sHYUgupKOEWjMCf9DBDV3syeaVUjd89DBlESFqhSUMZUYasL9rIgvhnc</password>
+    </service-credential>
+
+    <service-credential service-credential-id="customers-auth">
+        <url>https://development.tomorrowland.co.jp/dw/shop/v22_8/customers/auth</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">OKQHPuGLh2Gy29Ia8+NKyoA2Fo9MQPiMsyt12LUt1r8=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="cvt.update.inventory">
+        <url>https://converttool.tml.kimei.vn/update-inventory</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">nbDaOcOms4j26fBWqXMeTxvLpKpL4bAe7BiiuXz29Dg=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="forter.cred.auth.attempt">
+        <url>https://api.forter-secure.com/v2/accounts/authentication-result/</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">urQ8PNy6sEZXbkUqdkXvsjCsJxAxQWS2wTWwJVmhnAg=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="forter.cred.customers">
+        <url>https://api.forter-secure.com/v2/accounts/</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">67Qqpe4oCUsHNhRctL/EChCA01LdDg73z9V+koNyZ7I=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="forter.cred.errors">
+        <url>https://api.forter-secure.com/errors/</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">N1yOS+oLtg3pazwuh2ECIGH6wlPMRMvmF+hmkyTC2oY=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="forter.cred.settings">
+        <url>https://api.forter-secure.com/ext/settings</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">Ld6fMxNUEr+j9VA3DCVfT2KHlQxwFZO2UtL7otnFDYU=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="forter.cred.update">
+        <url>api.forter-secure.com/v2/status/</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">cYwcZEWZep/+FsT2GV0Zq3o4cd16O0ZmW70BgyLt2hE=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="forter.cred.validate">
+        <url>api.forter-secure.com/v2/orders/</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">J7lJw5BGYniGIfMi1t3HGdtT4Hkc1c5yjbbT9+I185k=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="forter.cred.verify">
+        <url>https://api.forter-secure.com/credentials/test</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">tW3rbnGfnn4mM655iK0HzOZ8FC3bb0eIGOvOoWq0C3o=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="ncr-calculate-point">
+        <url>https://ecapi.tomorrowland.co.jp/ecapi/cal-custpoint.php</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">v+JFdNuCT1r7oglDxRU/mTcHC++8Z0bXWBtzDB9z/Cw=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="ncr-generateID">
+        <url>https://ecapi.tomorrowland.co.jp/ecapi/get-custnewno.php</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">UvP4WtOOKQombg3uPAw0pPcfj6JXdqxXlW4gHqTm56s=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="ncr-get-member">
+        <url>https://ecapi.tomorrowland.co.jp/ecapi/get-custinfo.php</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">/n7zB0P+IO86KgPbyjAfTY44C4VkwMbiBjet28fLknY=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="ncr-history">
+        <url>https://ecapi.tomorrowland.co.jp/ecapi/get-buyhistory.php</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">Ny9nXs8PJ5X5000qIxbbqJFZYldVG9NV32X9iPSza58=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="ncr-login">
+        <url>https://ecapi.tomorrowland.co.jp/ecapi/get-custinfo.php</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">PgK9ogVKzenTze9lQ8rgvTGdiB2qT0NKWaCSAjSUZXw=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="ncr-register">
+        <url>https://ecapi.tomorrowland.co.jp/ecapi/set-custinfo.php</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">3WfT2YG0Kg/VvHjHXTNx9I3ODz506/nt3eGel0COifM=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="ncr-use-point">
+        <url>https://ecapi.tomorrowland.co.jp//ecapi/use-custpoint.php</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">jXWHWFpMgG67sZVW8nh1r80VM1Nk2yvLMlzsbMbYFqg=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="ocapi-get-access-token">
+        <url>https://account.demandware.com/dw/oauth2/access_token</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">eRfwZ76R5bFxai8gOknU21sAOF/jf0D5HDPQcn/qCaI=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="oms-auth">
+        <url>https://dev-oms-tml.rubygroupe.net/oauth/token</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">pStHsgvF/LRX7k66XQapDUtBy4LWiQRaNmiaFdYLuEQ=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="oms-cancel-order">
+        <url>https://dev-oms-tml.rubygroupe.net/api/v1/cancelOrder</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">bJMJrhhslWBarQ01oQ8sMglnroAAfK8eAo6fQkJt8EI=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="oms-create-order">
+        <url>https://dev-oms-tml.rubygroupe.net/api/v1/createOrder</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">2xIpuYP+tFx0O4GMCKEFRXaaFQPiLJfuFQ2fFI2mJvU=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="oms-generate-pdf">
+        <url>https://webhook.site/ad942c77-1907-489a-9394-a6917d10441e</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">gTYRs0P1DbVstso2r2/R2uOx9yAG5cJnC3P56uUabMo=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="oms-order-history">
+        <url>https://dev-oms-tml.rubygroupe.net/api/v1/orderHistory</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">lxR4vN32meV6NGJ83mDCRtG6piQpfANSrBQ3dzfun08=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="oms-order-history-webhook">
+        <url>https://webhook.site/a61e1a2d-4434-4a1c-a7ff-8df615de92b7</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">U1z4waeruwZFivynVm8DXS5w4NWgaGIgkQugX16sG6Y=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="postcodes">
+        <url>https://apis.postcode-jp.com/api/v5/postcodes</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">HFkJeKVvbNQojyKcNtY6MVvC7G8B9JDBjJsY9kQuAkM=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="request.stock.getAll">
+        <url>https://converttool.tml.kimei.vn/get-all-request-stock</url>
+        <user-id>ruby-dev</user-id>
+        <password encrypted="true" encryption-type="common.export">GlAQpigGO/0tjlAV4QwjrwUdtM8+KQkK3kSYFSEvQSqfVYM/b65zr4XS/HjHc4sJ</password>
+    </service-credential>
+
+    <service-credential service-credential-id="request.stock.search">
+        <url>https://converttool.tml.kimei.vn/get-request-stock-many-field</url>
+        <user-id>ruby-dev</user-id>
+        <password encrypted="true" encryption-type="common.export">IIpUoIkZIG+fweLMsadsP8/7tiQfH3F6qGFfN6Ofjr/gFKpZxFiRH0MOdT0QGev5</password>
+    </service-credential>
+
+    <service-credential service-credential-id="request.stock.update.many">
+        <url>https://converttool.tml.kimei.vn/update-many-request-stock</url>
+        <user-id>ruby-dev</user-id>
+        <password encrypted="true" encryption-type="common.export">LxE5wb+9Sm+c+yyCk00i8leyRCt6vv8KQF5oOmAatLO7inVNEurWtm2tgCoUBsTX</password>
+    </service-credential>
+
+    <service-credential service-credential-id="scs-allocate">
+        <url>https://dev.stockcontrol.jp/v2/allocate/</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">rtT4s289hjPPKP+rEAEmCIzZvx9XY1gYu/3ocK45Xc0=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="staff-start-article-detail">
+        <url>https://test.staff-start.com/v2/articles/detail</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">Wafkqg48fNKT3Vuo+dl0kYQHXiwIE0irfYR1Wa3B5yo=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="staff-start-articles">
+        <url>https://test.staff-start.com/v2/articles</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">E5gYmzeI6LGWHSHKrbzSJ9JHAVFqbA4eUn4ApBzheRY=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="staff-start-coordinate">
+        <url>https://test.staff-start.com/v1/coordinate</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">p/yanBhuvJDKk+WAmllRExtrXI4Gk0G9CKJ8sUUhugc=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="staff-start-coordinate-detail">
+        <url>https://test.staff-start.com/v1/coordinate/detail</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">oMDYyj2OV4/MfNH2lehJpZ85WAJLqgKbm57n/a2EnEo=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="staff-start-label">
+        <url>https://test.staff-start.com/v2/labels</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">MfO0g6iFmF6KmH9PlPy6e1exaj6HHhzdTyXsNQ3ZtRM=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="staff-start-product-detail">
+        <url>https://test.staff-start.com/v1/products/detail</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">gb42mUDdCXA2Hvh7tnsrsMtJB23GmPxnqc55MVEVWZA=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="staff-start-ranking">
+        <url>https://test.staff-start.com/v2/tags/ranking</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">tTvBZ6nw5w7GsTjb3rG9uGvNA72GtHMfJOY/QR7OASg=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="staff-start-review-detail">
+        <url>https://test.staff-start.com/v2/staff-reviews/detail</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">otcSJ00voG49sroYog/5YpHEn7nfGIEWMxMcqj37Bs4=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="staff-start-reviews">
+        <url>https://test.staff-start.com/v2/staff-reviews</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">1/ilkHUhSBFCRVVESagUz2AcxH09+0PhmWf3+SMJm84=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="staff-start-shop">
+        <url>https://test.staff-start.com/v2/shops</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">9uJUS/ppteFumWpWzQHW1S/X7MLfOz7NWGrhTA1dTEs=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="staff-start-shop-detail">
+        <url>https://test.staff-start.com/v2/shops/detail</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">XWMKlRbKxWVdpz0+WcFqrhtxLftA1HeuBqFFSnuLUj4=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="staff-start-staff-detail">
+        <url>https://test.staff-start.com/v1/staff/detail</url>
+        <user-id>tuvht@kimei.vn</user-id>
+        <password encrypted="true" encryption-type="common.export">UbnX6j57JfMwlj8H9URCQauzwGWjA2qs1TgnD154Zgo=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="staff-start-staff-list">
+        <url>https://test.staff-start.com/v1/staff/list</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">L3xS5y9u0KX1jcCZrD47MyhROxYTRQfA5UwP2YlViBc=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="staffstart_favorite_create_cred">
+        <url>https://converttool.tml.kimei.vn/create-favorite</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">x/5Ys2T7uw7KGqrqtBiFApwHX5cni4OgCIYTQAGNbVSlT0sZrDAiLTb8GTdoZ/Fm</password>
+    </service-credential>
+
+    <service-credential service-credential-id="staffstart_favorite_delete_cred">
+        <url>https://converttool.tml.kimei.vn/delete-favorite</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">JVtdx8wbWFxLiDDgM/oVBn8C6fi0RO8BLYWlQ/TDrUjkkpa/X15SP82inbrITIB6</password>
+    </service-credential>
+
+    <service-credential service-credential-id="staffstart_favorite_get_cred">
+        <url>https://converttool.tml.kimei.vn/get-favorite-many-field</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">02Y/yq+vag1V1iiSDwQbB8GjcKe6RdkPfmahbgfrHtuS+x0/JA0cFYmn7yS5/z+B</password>
+    </service-credential>
+
+    <service-credential service-credential-id="trusted-system">
+        <url>https://development.tomorrowland.co.jp/dw/shop/v22_6/customers/auth/trustedsystem</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">Dk2YClZlA4mXHTIr2ZEp9imiYdWCyGOQisczZPjR8uY=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="veritrans_mdk_account_add_cred">
+        <url>https://api.veritrans.co.jp:443/paynowid/V2/Add/account</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">p9I3mULsWam5BOQKYJp0MVTfxMRr8jsmcnf7TwVoAmD/v7joArp2gCXjwZaK0B9w</password>
+    </service-credential>
+
+    <service-credential service-credential-id="veritrans_mdk_account_add_cred_test">
+        <url>https://api.veritrans.co.jp:443/test-paynowid/V2/Add/account</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">2CUBJZXb1DeYv9BMnQaNy1HiFS1uS1IVvT9W82VEVZaFZ3DZzq/6bOLkTska0fyn</password>
+    </service-credential>
+
+    <service-credential service-credential-id="veritrans_mdk_account_get_cred">
+        <url>https://api.veritrans.co.jp:443/paynowid/V2/Get/account</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">4QfYbaJfnfUl/euWM1XkDkXerZqKUZBQI64bOYgRyYlaQHH33iCTVugJy1b4BcUY</password>
+    </service-credential>
+
+    <service-credential service-credential-id="veritrans_mdk_account_get_cred_test">
+        <url>https://api.veritrans.co.jp:443/test-paynowid/V2/Get/account</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">w7pNy9cT2rMhHRy91Cr69DRvvxrzOgcWvi8AjSo8fIx8r+whao9xyIZCzBxUYFPF</password>
+    </service-credential>
+
+    <service-credential service-credential-id="veritrans_mdk_card_add_cred">
+        <url>https://api.veritrans.co.jp:443/paynowid/V2/Add/cardinfo</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">jiFaLMbTywBKIPrl1FL2bsYy3pTDLo5Mz1ABapap/IuGhJGVUmrN/uA94AVWwReA</password>
+    </service-credential>
+
+    <service-credential service-credential-id="veritrans_mdk_card_add_cred_test">
+        <url>https://api.veritrans.co.jp:443/test-paynowid/V2/Add/cardinfo</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">xFvELC2p+kvR0TfuTWB3Oh3A2mERagWfLjp+xI4c/1wMJeca7v+zgxSlAfFizDqh</password>
+    </service-credential>
+
+    <service-credential service-credential-id="veritrans_mdk_card_delete_cred">
+        <url>https://api.veritrans.co.jp:443/paynowid/V2/Delete/cardinfo</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">flMFyBaL+XFJaoBUSYcwlAI0onAm2ZFzntk3o92pDh+8zV23dEVg6azr89eNuW4M</password>
+    </service-credential>
+
+    <service-credential service-credential-id="veritrans_mdk_card_delete_cred_test">
+        <url>https://api.veritrans.co.jp:443/test-paynowid/V2/Delete/cardinfo</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">pq6kNK5a2NBY+QbTEd4jh3PRSXGobFHm5MZwt25mTAZHzvq0V4Mzrch5Xr4BTPEB</password>
+    </service-credential>
+
+    <service-credential service-credential-id="veritrans_mdk_card_get_cred">
+        <url>https://api.veritrans.co.jp:443/paynowid/V2/Get/cardinfo</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">q2W9lGiPf85FNt7jxtwMdVjwCgcYWzB4zEA/zdxVXzD6eiWDfcVgoxQEyQwM43JF</password>
+    </service-credential>
+
+    <service-credential service-credential-id="veritrans_mdk_card_get_cred_test">
+        <url>https://api.veritrans.co.jp:443/test-paynowid/V2/Get/cardinfo</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">MW+nE99XcFJJm2zH/yOn5iZu+mTAH73MdBNUHUoSYufgqjXvxr8O9XI7e/1AKDH4</password>
+    </service-credential>
+
+    <service-credential service-credential-id="veritrans_mdk_get_credentials">
+        <url>https://api.veritrans.co.jp:443/paynow/v2/Authorize/</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">tFV6OyTbtyEPCKp/CFA7Li3jNGtOVkQxOQ2zSb54JaY=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="veritrans_mdk_get_credentials_test">
+        <url>https://api.veritrans.co.jp:443/test-paynow/v2/Authorize/</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">AInWGVnzl0r3z5Xf83Okpf8mTXmXNe/+LRBQyVdgx6w=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="veritrans_mdk_get_token_credentials">
+        <url>https://api.veritrans.co.jp/4gtoken</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">ou1a12/MpZmkgDTibOaYe8r43qDM3ZOdbgHuD2+YVAw=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="veritrans_pop_cancel_credentials">
+        <url>https://pay.veritrans.co.jp/pop/v1/card-cancel</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">5u31LqF1oQY9Q9XRumYIYox0ofM+ffK8cN++FQ7aR1g=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="veritrans_pop_capture_credentials">
+        <url>https://pay.veritrans.co.jp/pop/v1/card-capture</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">NWkL7iexGKCSuaqSdJJ75HKowE7dOh5+LThQPjZEnlI=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="veritrans_pop_get_account_registration_link_credentials">
+        <url>https://pay.veritrans.co.jp/pop/v1/account-registration-link</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">A3wqGO23J9JUISIPuULUt+eDKsBvbGZxNH24bEwqe8g=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="veritrans_pop_get_pay_link_url_credentials">
+        <url>https://pay.veritrans.co.jp/pop/v1/link-pay</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">RCKvQdMpGiAlNCD0bmdrzOrhzU8yR+ueYYLZrSg/UDo=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="veritrans_pop_get_payment_key_credentials">
+        <url>https://pay.veritrans.co.jp/pop/v1/payment-key</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">zQgaEa4uAjZIGpbPKj7jF3BenVlhxv/US1EshKAbryk=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="veritrans_pop_reauthorize_credentials">
+        <url>https://pay.veritrans.co.jp/pop/v1/card-reauthorize</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">qd4ESDNwZML2y/rtvhV08z7C/3b4wPr6LckbgbLpwH0=</password>
+    </service-credential>
+
+    <service-credential service-credential-id="veritrans_pop_register_card_credentials">
+        <url>https://pay.veritrans.co.jp/pop/v1/register-card</url>
+        <user-id/>
+        <password encrypted="true" encryption-type="common.export">v7SXX47ba7eKrP761C4EWa0TP+oxU8NsnC7DRpdFEZ4=</password>
+    </service-credential>
+
+    <service-profile service-profile-id="amazon.pay.buyer.get.prof">
+        <timeout-millis>5000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>false</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="amazon.pay.charge.cancel.prof">
+        <timeout-millis>5000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>false</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="amazon.pay.charge.capture.prof">
+        <timeout-millis>5000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>false</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="amazon.pay.charge.create.prof">
+        <timeout-millis>5000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>false</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="amazon.pay.charge.get.prof">
+        <timeout-millis>5000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>false</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="amazon.pay.chargePermission.close.prof">
+        <timeout-millis>5000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>false</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="amazon.pay.chargePermission.get.prof">
+        <timeout-millis>5000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>false</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="amazon.pay.chargePermission.update.prof">
+        <timeout-millis>5000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>false</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="amazon.pay.checkoutSession.complete.prof">
+        <timeout-millis>5000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>true</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="amazon.pay.checkoutSession.create.prof">
+        <timeout-millis>5000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>false</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="amazon.pay.checkoutSession.get.prof">
+        <timeout-millis>5000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>false</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="amazon.pay.checkoutSession.update.prof">
+        <timeout-millis>5000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>false</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="amazon.pay.refund.create.prof">
+        <timeout-millis>5000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>false</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="amazon.pay.refund.get.prof">
+        <timeout-millis>5000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>false</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="create.request.stock">
+        <timeout-millis>1000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>true</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="cvt.update.inventory">
+        <timeout-millis>1000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>true</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="forter.prof">
+        <timeout-millis>5000</timeout-millis>
+        <rate-limit-enabled>true</rate-limit-enabled>
+        <rate-limit-calls>5</rate-limit-calls>
+        <rate-limit-millis>10000</rate-limit-millis>
+        <cb-enabled>true</cb-enabled>
+        <cb-calls>5</cb-calls>
+        <cb-millis>10000</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="forter.prof.errors">
+        <timeout-millis>5000</timeout-millis>
+        <rate-limit-enabled>true</rate-limit-enabled>
+        <rate-limit-calls>5</rate-limit-calls>
+        <rate-limit-millis>10000</rate-limit-millis>
+        <cb-enabled>true</cb-enabled>
+        <cb-calls>5</cb-calls>
+        <cb-millis>10000</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="forter.prof.job">
+        <timeout-millis>5000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>false</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="instagram-post">
+        <timeout-millis>30000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>true</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="ncr">
+        <timeout-millis>30000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>true</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="oms">
+        <timeout-millis>30000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>true</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="postal">
+        <timeout-millis>30000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>true</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="request.stock.getAll">
+        <timeout-millis>10000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>true</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="request.stock.search">
+        <timeout-millis>1000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>true</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="request.stock.update.many">
+        <timeout-millis>1000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>true</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="scs-allocate">
+        <timeout-millis>1000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>true</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="staff-start">
+        <timeout-millis>30000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>true</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="staffstart_favorite_create_prof">
+        <timeout-millis>50000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>true</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="staffstart_favorite_delete_prof">
+        <timeout-millis>50000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>true</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="staffstart_favorite_get_prof">
+        <timeout-millis>50000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>true</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="veritrans_mdk_account_add_prof">
+        <timeout-millis>5000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>true</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="veritrans_mdk_account_get_prof">
+        <timeout-millis>5000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>true</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="veritrans_mdk_card_add_prof">
+        <timeout-millis>5000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>true</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="veritrans_mdk_card_delete_prof">
+        <timeout-millis>5000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>true</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="veritrans_mdk_card_get_prof">
+        <timeout-millis>5000</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>true</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="veritrans_mdk_get_profile">
+        <timeout-millis>0</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>true</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="veritrans_mdk_get_profile_test">
+        <timeout-millis>0</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>true</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="veritrans_mdk_get_token_profile">
+        <timeout-millis>0</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>false</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="veritrans_pop_cancel_profile">
+        <timeout-millis>0</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>false</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="veritrans_pop_capture_profile">
+        <timeout-millis>0</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>false</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="veritrans_pop_get_account_registration_link_Profile">
+        <timeout-millis>0</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>false</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="veritrans_pop_get_pay_link_url_profile">
+        <timeout-millis>0</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>false</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="veritrans_pop_get_payment_key_profile">
+        <timeout-millis>0</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>false</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="veritrans_pop_reauthorize_profile">
+        <timeout-millis>0</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>false</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service-profile service-profile-id="veritrans_pop_register_card_profile">
+        <timeout-millis>0</timeout-millis>
+        <rate-limit-enabled>false</rate-limit-enabled>
+        <rate-limit-calls>0</rate-limit-calls>
+        <rate-limit-millis>0</rate-limit-millis>
+        <cb-enabled>false</cb-enabled>
+        <cb-calls>0</cb-calls>
+        <cb-millis>0</cb-millis>
+    </service-profile>
+
+    <service service-id="IG_GraphAPI">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix/>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>instagram-post</profile-id>
+        <credential-id>IG_GraphAPI</credential-id>
+    </service>
+
+    <service service-id="amazon.pay.buyer.get">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>AmazonPay</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>amazon.pay.buyer.get.prof</profile-id>
+        <credential-id>amazon.pay.buyer.get.cred</credential-id>
+    </service>
+
+    <service service-id="amazon.pay.charge.cancel">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>AmazonPay</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>amazon.pay.charge.cancel.prof</profile-id>
+        <credential-id>amazon.pay.charge.cancel.cred</credential-id>
+    </service>
+
+    <service service-id="amazon.pay.charge.capture">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>AmazonPay</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>amazon.pay.charge.capture.prof</profile-id>
+        <credential-id>amazon.pay.charge.capture.cred</credential-id>
+    </service>
+
+    <service service-id="amazon.pay.charge.create">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>AmazonPay</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>amazon.pay.charge.create.prof</profile-id>
+        <credential-id>amazon.pay.charge.create.cred</credential-id>
+    </service>
+
+    <service service-id="amazon.pay.charge.get">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>AmazonPay</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>amazon.pay.charge.get.prof</profile-id>
+        <credential-id>amazon.pay.charge.get.cred</credential-id>
+    </service>
+
+    <service service-id="amazon.pay.chargePermission.close">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>AmazonPay</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>amazon.pay.chargePermission.close.prof</profile-id>
+        <credential-id>amazon.pay.chargePermission.close.cred</credential-id>
+    </service>
+
+    <service service-id="amazon.pay.chargePermission.get">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>AmazonPay</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>amazon.pay.chargePermission.get.prof</profile-id>
+        <credential-id>amazon.pay.chargePermission.get.cred</credential-id>
+    </service>
+
+    <service service-id="amazon.pay.chargePermission.update">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>AmazonPay</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>amazon.pay.chargePermission.update.prof</profile-id>
+        <credential-id>amazon.pay.chargePermission.update.cred</credential-id>
+    </service>
+
+    <service service-id="amazon.pay.checkoutSession.complete">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>AmazonPay</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>amazon.pay.checkoutSession.complete.prof</profile-id>
+        <credential-id>amazon.pay.checkoutSession.complete.cred</credential-id>
+    </service>
+
+    <service service-id="amazon.pay.checkoutSession.create">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>AmazonPay</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>amazon.pay.checkoutSession.create.prof</profile-id>
+        <credential-id>amazon.pay.checkoutSession.create.cred</credential-id>
+    </service>
+
+    <service service-id="amazon.pay.checkoutSession.get">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>AmazonPay</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>amazon.pay.checkoutSession.get.prof</profile-id>
+        <credential-id>amazon.pay.checkoutSession.get.cred</credential-id>
+    </service>
+
+    <service service-id="amazon.pay.checkoutSession.update">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>AmazonPay</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>amazon.pay.checkoutSession.update.prof</profile-id>
+        <credential-id>amazon.pay.checkoutSession.update.cred</credential-id>
+    </service>
+
+    <service service-id="amazon.pay.refund.create">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>AmazonPay</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>amazon.pay.refund.create.prof</profile-id>
+        <credential-id>amazon.pay.refund.create.cred</credential-id>
+    </service>
+
+    <service service-id="amazon.pay.refund.get">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>AmazonPay</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>amazon.pay.refund.get.prof</profile-id>
+        <credential-id>amazon.pay.refund.get.cred</credential-id>
+    </service>
+
+    <service service-id="create_request_stock">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix/>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>create.request.stock</profile-id>
+        <credential-id>create.request.stock</credential-id>
+    </service>
+
+    <service service-id="customers-auth">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix/>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>ncr</profile-id>
+        <credential-id>customers-auth</credential-id>
+    </service>
+
+    <service service-id="cvt.update.inventory">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix/>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>cvt.update.inventory</profile-id>
+        <credential-id>cvt.update.inventory</credential-id>
+    </service>
+
+    <service service-id="forter.rest.auth.attempt">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>FORTER</log-prefix>
+        <comm-log-enabled>true</comm-log-enabled>
+        <force-prd-enabled>false</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>forter.prof</profile-id>
+        <credential-id>forter.cred.auth.attempt</credential-id>
+    </service>
+
+    <service service-id="forter.rest.customers">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>FORTERa</log-prefix>
+        <comm-log-enabled>true</comm-log-enabled>
+        <force-prd-enabled>false</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>forter.prof</profile-id>
+        <credential-id>forter.cred.customers</credential-id>
+    </service>
+
+    <service service-id="forter.rest.errors">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>FORTER</log-prefix>
+        <comm-log-enabled>true</comm-log-enabled>
+        <force-prd-enabled>false</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>forter.prof.errors</profile-id>
+        <credential-id>forter.cred.errors</credential-id>
+    </service>
+
+    <service service-id="forter.rest.settings">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>FORTER</log-prefix>
+        <comm-log-enabled>true</comm-log-enabled>
+        <force-prd-enabled>false</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>forter.prof</profile-id>
+        <credential-id>forter.cred.settings</credential-id>
+    </service>
+
+    <service service-id="forter.rest.update">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>FORTERb</log-prefix>
+        <comm-log-enabled>true</comm-log-enabled>
+        <force-prd-enabled>false</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>forter.prof.job</profile-id>
+        <credential-id>forter.cred.update</credential-id>
+    </service>
+
+    <service service-id="forter.rest.validate">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>FORTER</log-prefix>
+        <comm-log-enabled>true</comm-log-enabled>
+        <force-prd-enabled>false</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>forter.prof</profile-id>
+        <credential-id>forter.cred.validate</credential-id>
+    </service>
+
+    <service service-id="forter.rest.verify">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>FORTER</log-prefix>
+        <comm-log-enabled>true</comm-log-enabled>
+        <force-prd-enabled>false</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>forter.prof</profile-id>
+        <credential-id>forter.cred.verify</credential-id>
+    </service>
+
+    <service service-id="ncr-calculate-point">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix/>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>ncr</profile-id>
+        <credential-id>ncr-calculate-point</credential-id>
+    </service>
+
+    <service service-id="ncr-generateID">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix/>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>ncr</profile-id>
+        <credential-id>ncr-generateID</credential-id>
+    </service>
+
+    <service service-id="ncr-get-member">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix/>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>ncr</profile-id>
+        <credential-id>ncr-get-member</credential-id>
+    </service>
+
+    <service service-id="ncr-history">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix/>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>ncr</profile-id>
+        <credential-id>ncr-history</credential-id>
+    </service>
+
+    <service service-id="ncr-login">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix/>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>ncr</profile-id>
+        <credential-id>ncr-login</credential-id>
+    </service>
+
+    <service service-id="ncr-register">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix/>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>ncr</profile-id>
+        <credential-id>ncr-register</credential-id>
+    </service>
+
+    <service service-id="ncr-use-point">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix/>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>ncr</profile-id>
+        <credential-id>ncr-use-point</credential-id>
+    </service>
+
+    <service service-id="ocapi-get-access-token">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix/>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>ncr</profile-id>
+        <credential-id>ocapi-get-access-token</credential-id>
+    </service>
+
+    <service service-id="oms-auth">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix/>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>oms</profile-id>
+        <credential-id>oms-auth</credential-id>
+    </service>
+
+    <service service-id="oms-cancel-order">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix/>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>oms</profile-id>
+        <credential-id>oms-cancel-order</credential-id>
+    </service>
+
+    <service service-id="oms-create-order">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix/>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>oms</profile-id>
+        <credential-id>oms-create-order</credential-id>
+    </service>
+
+    <service service-id="oms-generate-pdf">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix/>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>false</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>oms</profile-id>
+        <credential-id>oms-generate-pdf</credential-id>
+    </service>
+
+    <service service-id="oms-order-history">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix/>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>oms</profile-id>
+        <credential-id>oms-order-history</credential-id>
+    </service>
+
+    <service service-id="postalService">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>postalService</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>postal</profile-id>
+        <credential-id>postcodes</credential-id>
+    </service>
+
+    <service service-id="request.stock.getAll">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix/>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>request.stock.getAll</profile-id>
+        <credential-id>request.stock.getAll</credential-id>
+    </service>
+
+    <service service-id="request.stock.search">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix/>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>request.stock.search</profile-id>
+        <credential-id>request.stock.search</credential-id>
+    </service>
+
+    <service service-id="request.stock.update.many">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix/>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>request.stock.update.many</profile-id>
+        <credential-id>request.stock.update.many</credential-id>
+    </service>
+
+    <service service-id="scs-allocate">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix/>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>scs-allocate</profile-id>
+        <credential-id>scs-allocate</credential-id>
+    </service>
+
+    <service service-id="staff-start-article-detail">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>staff-start</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>staff-start</profile-id>
+        <credential-id>staff-start-article-detail</credential-id>
+    </service>
+
+    <service service-id="staff-start-articles">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>staff-start</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>staff-start</profile-id>
+        <credential-id>staff-start-articles</credential-id>
+    </service>
+
+    <service service-id="staff-start-coordinate">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>staff-start</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>staff-start</profile-id>
+        <credential-id>staff-start-coordinate</credential-id>
+    </service>
+
+    <service service-id="staff-start-coordinate-detail">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>staff-start</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>staff-start</profile-id>
+        <credential-id>staff-start-coordinate-detail</credential-id>
+    </service>
+
+    <service service-id="staff-start-label">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix/>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>staff-start</profile-id>
+        <credential-id>staff-start-label</credential-id>
+    </service>
+
+    <service service-id="staff-start-product-detail">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>staff-start</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>staff-start</profile-id>
+        <credential-id>staff-start-product-detail</credential-id>
+    </service>
+
+    <service service-id="staff-start-ranking">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>staff-start</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>staff-start</profile-id>
+        <credential-id>staff-start-ranking</credential-id>
+    </service>
+
+    <service service-id="staff-start-review-detail">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>staff-start</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>staff-start</profile-id>
+        <credential-id>staff-start-review-detail</credential-id>
+    </service>
+
+    <service service-id="staff-start-reviews">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>staff-start</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>staff-start</profile-id>
+        <credential-id>staff-start-reviews</credential-id>
+    </service>
+
+    <service service-id="staff-start-shop">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>staff-start</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>staff-start</profile-id>
+        <credential-id>staff-start-shop</credential-id>
+    </service>
+
+    <service service-id="staff-start-shop-detail">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>staff-start</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>staff-start</profile-id>
+        <credential-id>staff-start-shop-detail</credential-id>
+    </service>
+
+    <service service-id="staff-start-staff-detail">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>staff-start</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>staff-start</profile-id>
+        <credential-id>staff-start-staff-detail</credential-id>
+    </service>
+
+    <service service-id="staff-start-staff-list">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>staff-start</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>staff-start</profile-id>
+        <credential-id>staff-start-staff-list</credential-id>
+    </service>
+
+    <service service-id="staffstart_favorite_create">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>staffstart</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>staffstart_favorite_create_prof</profile-id>
+        <credential-id>staffstart_favorite_create_cred</credential-id>
+    </service>
+
+    <service service-id="staffstart_favorite_delete">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>staffstart</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>staffstart_favorite_delete_prof</profile-id>
+        <credential-id>staffstart_favorite_delete_cred</credential-id>
+    </service>
+
+    <service service-id="staffstart_favorite_get">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>staffstart</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>staffstart_favorite_get_prof</profile-id>
+        <credential-id>staffstart_favorite_get_cred</credential-id>
+    </service>
+
+    <service service-id="trusted-system">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix/>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>ncr</profile-id>
+        <credential-id>trusted-system</credential-id>
+    </service>
+
+    <service service-id="veritrans_mdk_account_add">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>Veritrans</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>veritrans_mdk_account_add_prof</profile-id>
+        <credential-id>veritrans_mdk_account_add_cred</credential-id>
+    </service>
+
+    <service service-id="veritrans_mdk_account_add_test">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix/>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>veritrans_mdk_account_add_prof</profile-id>
+        <credential-id>veritrans_mdk_account_add_cred_test</credential-id>
+    </service>
+
+    <service service-id="veritrans_mdk_account_get">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>Veritrans</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>veritrans_mdk_account_get_prof</profile-id>
+        <credential-id>veritrans_mdk_account_get_cred</credential-id>
+    </service>
+
+    <service service-id="veritrans_mdk_account_get_test">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>Veritrans</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>veritrans_mdk_account_get_prof</profile-id>
+        <credential-id>veritrans_mdk_account_get_cred_test</credential-id>
+    </service>
+
+    <service service-id="veritrans_mdk_card_add">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix/>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>veritrans_mdk_card_add_prof</profile-id>
+        <credential-id>veritrans_mdk_card_add_cred</credential-id>
+    </service>
+
+    <service service-id="veritrans_mdk_card_add_test">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix/>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>veritrans_mdk_card_add_prof</profile-id>
+        <credential-id>veritrans_mdk_card_add_cred_test</credential-id>
+    </service>
+
+    <service service-id="veritrans_mdk_card_delete">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>Veritrans</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>veritrans_mdk_card_delete_prof</profile-id>
+        <credential-id>veritrans_mdk_card_delete_cred</credential-id>
+    </service>
+
+    <service service-id="veritrans_mdk_card_delete_test">
+        <service-type>HTTP</service-type>
+        <enabled>false</enabled>
+        <log-prefix>Veritrans</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>veritrans_mdk_card_delete_prof</profile-id>
+        <credential-id>veritrans_mdk_card_delete_cred_test</credential-id>
+    </service>
+
+    <service service-id="veritrans_mdk_card_get">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>Veritrans</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>veritrans_mdk_card_get_prof</profile-id>
+        <credential-id>veritrans_mdk_card_get_cred</credential-id>
+    </service>
+
+    <service service-id="veritrans_mdk_card_get_test">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>Veritrans</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>true</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>veritrans_mdk_card_get_prof</profile-id>
+        <credential-id>veritrans_mdk_card_get_cred_test</credential-id>
+    </service>
+
+    <service service-id="veritrans_mdk_get_name">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>veritrans_mdk</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>false</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>veritrans_mdk_get_profile</profile-id>
+        <credential-id>veritrans_mdk_get_credentials</credential-id>
+    </service>
+
+    <service service-id="veritrans_mdk_get_name_test">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>veritrans_mdk</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>false</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>veritrans_mdk_get_profile_test</profile-id>
+        <credential-id>veritrans_mdk_get_credentials_test</credential-id>
+    </service>
+
+    <service service-id="veritrans_mdk_get_token_name">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix>veritrans_mdk_token</log-prefix>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>false</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>veritrans_mdk_get_token_profile</profile-id>
+        <credential-id>veritrans_mdk_get_token_credentials</credential-id>
+    </service>
+
+    <service service-id="veritrans_pop_cancel_name">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix/>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>false</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>veritrans_pop_cancel_profile</profile-id>
+        <credential-id>veritrans_pop_cancel_credentials</credential-id>
+    </service>
+
+    <service service-id="veritrans_pop_capture_name">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix/>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>false</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>veritrans_pop_capture_profile</profile-id>
+        <credential-id>veritrans_pop_capture_credentials</credential-id>
+    </service>
+
+    <service service-id="veritrans_pop_get_account_registration_link_name">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix/>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>false</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>veritrans_pop_get_account_registration_link_Profile</profile-id>
+        <credential-id>veritrans_pop_get_account_registration_link_credentials</credential-id>
+    </service>
+
+    <service service-id="veritrans_pop_get_pay_link_url_name">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix/>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>false</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>veritrans_pop_get_pay_link_url_profile</profile-id>
+        <credential-id>veritrans_pop_get_pay_link_url_credentials</credential-id>
+    </service>
+
+    <service service-id="veritrans_pop_get_payment_key_name">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix/>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>false</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>veritrans_pop_get_payment_key_profile</profile-id>
+        <credential-id>veritrans_pop_get_payment_key_credentials</credential-id>
+    </service>
+
+    <service service-id="veritrans_pop_reauthorize_name">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix/>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>false</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>veritrans_pop_reauthorize_profile</profile-id>
+        <credential-id>veritrans_pop_reauthorize_credentials</credential-id>
+    </service>
+
+    <service service-id="veritrans_pop_register_card_name">
+        <service-type>HTTP</service-type>
+        <enabled>true</enabled>
+        <log-prefix/>
+        <comm-log-enabled>false</comm-log-enabled>
+        <force-prd-enabled>false</force-prd-enabled>
+        <mock-mode-enabled>false</mock-mode-enabled>
+        <profile-id>veritrans_pop_register_card_profile</profile-id>
+        <credential-id>veritrans_pop_register_card_credentials</credential-id>
+    </service>
+
+</services>
