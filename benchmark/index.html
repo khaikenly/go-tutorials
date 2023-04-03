@@ -1,0 +1,26 @@
+<body>
+    <button onclick="getProducts('pooled')">
+      Get Products | Connection Pool
+    </button>
+    <script>
+      function getProducts(mode) {
+        let lastResult = null;
+        const promises = [];
+        for (let i = 0; i < 1000; i++) {
+          promises.push(
+            fetch(`/products/${mode}`)
+              .then((response) => response.json())
+              .then(({ elapsed, average, products }) => {
+                lastResult = { elapsed, average };
+                console.log({ elapsed, average });
+              })
+          );
+        }
+        Promise.all(promises)
+          .then(() => {
+            console.log(`Last result for ${mode}:`, lastResult);
+          })
+          .catch((error) => console.error(error));
+      }
+    </script>
+  </body>

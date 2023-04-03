@@ -10,17 +10,16 @@ func addNum(nums []int, x int) []int {
 		// If key is not in the map, then elem is the zero value for the map's element type.
 		j, ok := numCludes[x-num]
 		if ok {
-			return []int{j, i}
+			fmt.Println([]int{j, i})
 		}
 		numCludes[num] = i
 	}
-	fmt.Println(numCludes)
 	return []int{}
 }
 
 func main() {
-	nums := []int{2, 7, 11, 15}
-	target := 26
+	nums := []int{1, 2, 3, 5, 6}
+	target := 8
 	result := addNum(nums, target)
 	fmt.Println(result)
 }

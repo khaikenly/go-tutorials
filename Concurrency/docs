@@ -1,0 +1,28 @@
+Goroutine là một tính năng quan trọng trong ngôn ngữ lập trình Golang, cho phép các tác vụ được thực 
+thi đồng thời và hiệu quả hơn. Tuy nhiên, để đảm bảo độ tin cậy và hiệu suất của chương trình,
+cần xử lý Goroutine một cách đúng đắn. Dưới đây là một số cách để xử lý Goroutine:
+
+1. Sử dụng WaitGroup: WaitGroup được sử dụng để đợi cho tất cả các Goroutine hoàn thành trước khi tiếp tục thực thi các tác vụ khác. 
+    WaitGroup sử dụng phương thức Add để thêm Goroutine vào danh sách đợi và phương thức Done để thông báo khi Goroutine đã hoàn thành.
+
+2. Sử dụng Channel: Channel là một cơ chế để giao tiếp giữa các Goroutine và được sử dụng để truyền thông tin giữa các Goroutine.
+    Khi sử dụng Channel, cần chú ý đến việc đóng kênh (close channel) và xử lý các giá trị rác (garbage values) trong kênh.
+
+3. Sử dụng Context: Context là một tính năng được cung cấp bởi Golang để quản lý các Goroutine và giúp chúng tương tác với nhau một
+    cách an toàn và đúng đắn. Context được sử dụng để đảm bảo Goroutine không bị treo và có thể được hủy bỏ (cancel) một cách an toàn.
+
+4. Sử dụng Mutex: Mutex là một phương tiện đồng bộ hóa được sử dụng để đảm bảo rằng chỉ một Goroutine có thể truy cập vào một biến hoặc 
+    tài nguyên cùng một lúc. Khi sử dụng Mutex, cần chú ý đến việc giải phóng (unlock) Mutex để cho phép các Goroutine khác có thể truy
+    cập vào tài nguyên.
+
+Việc ưu tiên chọn cách nào để xử lý Goroutine phụ thuộc vào từng trường hợp cụ thể và yêu cầu của ứng dụng.
+Tuy nhiên, có một số lưu ý chung sau đây có thể giúp bạn đưa ra quyết định chọn cách xử lý Goroutine phù hợp:
+
++ Nếu bạn muốn đợi cho tất cả các Goroutine hoàn thành trước khi thực hiện các tác vụ khác, sử dụng WaitGroup.
++ Nếu bạn muốn truyền thông tin giữa các Goroutine, sử dụng Channel.
++ Nếu bạn muốn quản lý và tương tác với các Goroutine một cách an toàn và đúng đắn, sử dụng Context.
++ Nếu bạn muốn đảm bảo chỉ một Goroutine có thể truy cập vào một tài nguyên cùng một lúc, sử dụng Mutex.
+
+Tuy nhiên, việc lựa chọn cách xử lý Goroutine phù hợp không chỉ dựa trên những lưu ý trên mà còn phụ thuộc vào 
+nhiều yếu tố khác như hiệu suất, tính bảo mật, độ tin cậy và độ phức tạp của ứng dụng. Vì vậy, để đưa ra quyết
+định chọn cách xử lý Goroutine tốt nhất, cần phải cân nhắc kỹ lưỡng và thử nghiệm trong từng tình huống cụ thể.
